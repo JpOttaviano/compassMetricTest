@@ -6,7 +6,6 @@ import {
   Person,
   Product,
 } from "../types/commons";
-import { parseMoneyToFloat } from "./utils";
 
 /**
  * Map Shopify orders to normalized Order object.

@@ -2,7 +2,6 @@ import fs from "fs";
 import { Shopify, Woocommerce } from "../testData/Orders";
 import { getMetricData } from "./connector/processor";
 import { DataResponse } from "./types/commerceTypes";
-import { MetricsItem } from "./types/commons";
 
 function getOrdersItem(): DataResponse {
   return {
